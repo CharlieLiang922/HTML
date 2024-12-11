@@ -6,6 +6,124 @@
     <title>FUSIONSIX</title>
     <link rel="stylesheet" type=“text/css” href="https://github.com/CharlieLiang922/my-website/blob/main/reset.css">
     <link rel="stylesheet" type=“text/css” href="https://github.com/CharlieLiang922/my-website/blob/main/main.css">
+    <style>
+        a{
+    text-decoration: none;
+}
+.begin{
+    text-align: center;
+    background-color: white;
+    font-size: 0;
+    font-weight: bolder;
+    width: 90%;
+    padding: 40px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.begin .icon{
+    display: inline-block;
+    padding-right: 70px;
+}
+.begin .icon a{
+    color: black;
+    font-size: 23px;
+    font-family: monospace;
+}
+.begin .header{
+    display: inline-block;
+}
+.begin .header a{
+    color: black;
+    font-size: 15px;
+    font-family: serif;
+    padding: 0px 10px 20px 10px;
+    border: 5px;
+}
+.begin .header a:hover{
+    box-shadow: 0 -2px black inset;
+}
+.begin .setting{
+    display: inline-block;
+    text-align: right;
+    padding: 0px 0px 0px 200px;
+}
+.begin .setting a{
+    color: black;
+    font-size: 15px;
+    font-family: serif;
+    padding: 10px 10px 20px 10px;
+    border: 10px;
+}
+.begin .setting a:hover{
+    box-shadow: 0 -2px black inset;
+}
+svg{
+    position: absolute;
+    top: 35px;
+}
+.search{
+    right: 250px;
+}
+.cart{
+    right: 200px;
+}
+.account{
+    right: 150px;
+}
+.slideshow{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.slidetext{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: slideShow 9s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text{
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    z-index: 2;
+}
+.text h1{
+    margin: 0;
+}
+.slidetext:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.slidetext:nth-child(2) {
+    animation-delay: 3s;
+}
+
+.slidetext:nth-child(3) {
+    animation-delay: 6s;
+}
+
+@keyframes slideShow {
+    0%, 20% {
+        opacity: 1;
+    }
+    33%, 100% {
+        opacity: 0;
+    }
+}
+    </style>
 </head>
 <body>
     <div class="begin">
