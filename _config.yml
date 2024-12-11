@@ -1,5 +1,9 @@
-title: "My Jekyll Site"
-description: "A simple site powered by Jekyll"
+title: My Jekyll Site
+description: A simple website powered by Jekyll
 baseurl: ""
-url: "https://yourusername.github.io"
+url: "https://CharlieLiang922.github.io"
 theme: jekyll-theme-primer
+sass:
+  style: compressed
+  load_paths:
+    - "assets/css"
